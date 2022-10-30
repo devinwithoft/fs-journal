@@ -65,3 +65,86 @@ in-fixes
 breakpoints on websit
 
 order
+
+<!-- GENERAL DFLEX -->
+
+JUSTIFY-CONTENT: MAIN AXIS
+ALIGN-ITEMS: OPPOSITE AXIS
+align-self ^^ 
+
+This can be confusing, but align-content determines the spacing between lines, while align-items determines how the items as a whole are aligned within the containe
+
+<row>
+<column>
+<h1>
+
+all items you want moved but in a flex container
+
+
+
+use google inspect to help test dfles (go to cotainer w deflex)
+<!-- STARTING A PAGE  -->
+
+first start SET UP ALL SECTIONS/ROWS
+
+ALT SHIFT DOWN COPIES BAR BELOW 
+
+
+
+<!-- SETTING UP IMAGES -->
+
+to center h1 vertically, need to turn column into a dflex first
+
+try min-height instead of directly setting height
+
+20vh?
+
+to set up background img
+{
+    background-image:url(linkhere);
+}
+
+background-position for bg image 
+
+
+"img-fluid" keep in container?
+<!-- FLOATING BUTTONS -->
+try a customclass to 
+transform:translateY(-1vh)
+
+etc
+
+
+<!-- ICONS -->
+link:mdi
+in head
+
+
+<i></i> tags normally italicize
+go to material design icons
+
+<i class mdi mdi-(name of icon)></i>
+
+mdi counts as font for size
+
+fs-1 largest to fs-6 smallest
+**to do set up snippet for bootstrap5**
+
+
+<!--general notes -->
+its okay to use divs for just one thing
+
+
+gap - 2 
+<!-- convert to mobiles -->
+change images 
+
+display d md medium block
+d-md-block
+
+set a default 
+
+resizing divs to mobile
+
+*d-none* 
+
