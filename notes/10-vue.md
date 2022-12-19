@@ -69,6 +69,7 @@ export class XController extends BaseController {
   constructor(){
     super('api/albums')
     this.router
+    .use(AUTH0Provider.getAuthorizedUserInfo )
     .post('', this.create)
   }
 
@@ -76,3 +77,10 @@ export class XController extends BaseController {
   const album = await albumsService.create(req.body)
   return res.send(album)
 }
+
+
+deleting await XXXX.remove(req.params.id **For link**, req.userInfo.id **who is deleting**)
+
+do smaller requests than one GIANT one
+
+reference albums controller/pictures controller getAll with paramters
